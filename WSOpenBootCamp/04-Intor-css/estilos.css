@@ -1,0 +1,36 @@
+h1 {
+    color:red;
+}
+/*Estoy porbando colores y fuentes */
+p {
+    color:blue;
+    font-size: 16pt;
+}
+/* Aceder a los selectores*/
+/*ID*/
+p#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-notica{
+    color: darkmagenta;
+}
+/*CLASE*/
+.encabezado{
+    font-size:24 pt;
+    text-transform: uppercase;
+
+}
+/*
+SELECTOR UNIVERSAL
+* {
+    color: yellow;
+}
+*/
+*.warning{
+    color:red;
+}
+.autor, .fecha, .ubicacion{
+    text-decoration: underline;
+}
